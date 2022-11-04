@@ -6,4 +6,3 @@
 
 ## 自动获取更新trojan节点
 	auto_trojan.sh
-#.1
