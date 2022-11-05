@@ -8,4 +8,4 @@
 	auto_trojan.sh
 
 ## Script
-	script
+	sc
