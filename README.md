@@ -1,4 +1,4 @@
-#config
+# config
 	存放一些软件的配置文件
 ## CotEditor_txt.yml
 	CotEditor软件对于txt等格式代码高亮配置
