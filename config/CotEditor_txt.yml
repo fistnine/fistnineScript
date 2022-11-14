@@ -1,0 +1,99 @@
+attributes:
+- beginString: '[$][ ]'
+  endString: '[\n|\\]'
+  ignoreCase: false
+  regularExpression: true
+characters:
+- beginString: '[<|>|?|+|\-|*|/|=|\\|;|:|"|''|.|,|~|`|!|@|%|^|&|$|*|(|)]'
+  ignoreCase: false
+  regularExpression: true
+commands: []
+commentDelimiters:
+  inlineDelimiter: '#'
+comments: []
+completions: []
+extensions:
+- keyString: txt
+- keyString: gd
+interpreters: []
+keywords:
+- beginString: clamp\s
+  ignoreCase: true
+  regularExpression: true
+- beginString: class\s
+  ignoreCase: true
+  regularExpression: true
+- beginString: const\s
+  ignoreCase: true
+  regularExpression: true
+- beginString: enum\s
+  ignoreCase: true
+  regularExpression: true
+- beginString: for\s
+  ignoreCase: true
+  regularExpression: true
+- beginString: func\s
+  endString: \(|$
+  ignoreCase: true
+  regularExpression: true
+- beginString: if\s
+  endString: \(|$
+  ignoreCase: true
+  regularExpression: true
+- beginString: return\s
+  ignoreCase: true
+  regularExpression: true
+- beginString: static\s
+  ignoreCase: true
+  regularExpression: true
+- beginString: switch\s
+  ignoreCase: true
+  regularExpression: true
+metadata:
+  author: fistnine
+  lastModified: '2022-06-19'
+  version: '1.0'
+numbers:
+- beginString: '[0-9]'
+  regularExpression: true
+outlineMenu:
+- beginString: ^(#.+)$
+  bold: true
+  ignoreCase: true
+- beginString: ^([\t ]+#.+)$
+  ignoreCase: true
+  italic: true
+  underline: false
+strings:
+- beginString: '"'
+  endString: '"'
+  ignoreCase: true
+  regularExpression: false
+- beginString: 《
+  endString: 》
+  ignoreCase: true
+  regularExpression: false
+types:
+- beginString: error
+  ignoreCase: true
+  regularExpression: false
+- beginString: string
+  ignoreCase: true
+  regularExpression: false
+- beginString: var
+  ignoreCase: true
+  regularExpression: false
+- beginString: vector
+  ignoreCase: true
+  regularExpression: true
+- beginString: void
+  ignoreCase: true
+  regularExpression: false
+values:
+- beginString: 'false'
+  ignoreCase: true
+  regularExpression: false
+- beginString: 'true'
+  ignoreCase: true
+  regularExpression: false
+variables: []

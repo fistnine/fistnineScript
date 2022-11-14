@@ -21,6 +21,7 @@ do
 	do
 		k=`tr "\?" " " <<<$k`
 		find "$_dir" -type f -name "$k" | sed "s|^[^=]*/||g" | sed "s|^|$_url|g" >> $_out$_var$_suffix
+		#找到每个目录下的文件
 		#find "$_dir" -type f -name "$k" | sed "s|$_PATH||g" | sed "s|^|$_url|g" >> $_out$_var$_suffix
 	done
 	num=$(($num + 1))
