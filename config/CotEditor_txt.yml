@@ -9,46 +9,50 @@ characters:
   regularExpression: true
 commands: []
 commentDelimiters:
-  inlineDelimiter: '#'
-comments: []
+  beginDelimiter: /*
+  endDelimiter: '*/'
+  inlineDelimiter: '# '
+comments:
+- beginString: (\s#)|(^#)
+  endString: $
+  ignoreCase: false
+  regularExpression: true
 completions: []
 extensions:
 - keyString: txt
 - keyString: gd
 interpreters: []
 keywords:
-- beginString: clamp\s
+- beginString: clamp
   ignoreCase: true
-  regularExpression: true
-- beginString: class\s
+  regularExpression: false
+- beginString: class
   ignoreCase: true
-  regularExpression: true
-- beginString: const\s
+  regularExpression: false
+- beginString: const
   ignoreCase: true
-  regularExpression: true
-- beginString: enum\s
+  regularExpression: false
+- beginString: enum
   ignoreCase: true
-  regularExpression: true
-- beginString: for\s
+  regularExpression: false
+- beginString: for
   ignoreCase: true
-  regularExpression: true
-- beginString: func\s
-  endString: \(|$
+  regularExpression: false
+- beginString: func
   ignoreCase: true
-  regularExpression: true
-- beginString: if\s
-  endString: \(|$
+  regularExpression: false
+- beginString: if
   ignoreCase: true
-  regularExpression: true
-- beginString: return\s
+  regularExpression: false
+- beginString: return
   ignoreCase: true
-  regularExpression: true
-- beginString: static\s
+  regularExpression: false
+- beginString: static
   ignoreCase: true
-  regularExpression: true
-- beginString: switch\s
+  regularExpression: false
+- beginString: switch
   ignoreCase: true
-  regularExpression: true
+  regularExpression: false
 metadata:
   author: fistnine
   lastModified: '2022-06-19'
