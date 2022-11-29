@@ -23,36 +23,36 @@ extensions:
 - keyString: gd
 interpreters: []
 keywords:
-- beginString: clamp
+- beginString: ^clamp|\t+clamp|\s+clamp
   ignoreCase: true
-  regularExpression: false
-- beginString: class
+  regularExpression: true
+- beginString: ^class|\t+class|\s+class
   ignoreCase: true
-  regularExpression: false
-- beginString: const
+  regularExpression: true
+- beginString: ^const|\t+const|\s+const
   ignoreCase: true
-  regularExpression: false
-- beginString: enum
+  regularExpression: true
+- beginString: ^enum|\t+enum|\s+enum
   ignoreCase: true
-  regularExpression: false
-- beginString: for
+  regularExpression: true
+- beginString: ^for|\t+for|\s+for
   ignoreCase: true
-  regularExpression: false
-- beginString: func
+  regularExpression: true
+- beginString: ^func|\t+func|\s+func
   ignoreCase: true
-  regularExpression: false
-- beginString: if
+  regularExpression: true
+- beginString: ^if|\t+if|\s+if
   ignoreCase: true
-  regularExpression: false
-- beginString: return
+  regularExpression: true
+- beginString: ^return|\t+return|\s+return
   ignoreCase: true
-  regularExpression: false
-- beginString: static
+  regularExpression: true
+- beginString: ^static|\t+static|\s+static
   ignoreCase: true
-  regularExpression: false
-- beginString: switch
+  regularExpression: true
+- beginString: ^switch|\t+switch|\s+switch
   ignoreCase: true
-  regularExpression: false
+  regularExpression: true
 metadata:
   author: fistnine
   lastModified: '2022-06-19'
