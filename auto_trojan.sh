@@ -27,7 +27,7 @@ function write(){ #写入文件
 	#写入到配置文件
 	echo "{" > $_file
 	echo "    \"run_type\": \"client\"," >> $_file
-	echo "    \"local_addr\": \"0.0.0.0\"," >> $_file
+	echo "    \"local_addr\": \"::\"," >> $_file
 	echo "    \"local_port\": 1080," >> $_file
 	echo "    \"remote_addr\": \"$_remote_addr\"," >> $_file
 	echo "    \"remote_port\": $_remote_port," >> $_file

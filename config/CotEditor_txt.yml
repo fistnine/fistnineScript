@@ -23,34 +23,7 @@ extensions:
 - keyString: gd
 interpreters: []
 keywords:
-- beginString: ^clamp|\t+clamp|\s+clamp
-  ignoreCase: true
-  regularExpression: true
-- beginString: ^class|\t+class|\s+class
-  ignoreCase: true
-  regularExpression: true
-- beginString: ^const|\t+const|\s+const
-  ignoreCase: true
-  regularExpression: true
-- beginString: ^enum|\t+enum|\s+enum
-  ignoreCase: true
-  regularExpression: true
-- beginString: ^for|\t+for|\s+for
-  ignoreCase: true
-  regularExpression: true
-- beginString: ^func|\t+func|\s+func
-  ignoreCase: true
-  regularExpression: true
-- beginString: ^if|\t+if|\s+if
-  ignoreCase: true
-  regularExpression: true
-- beginString: ^return|\t+return|\s+return
-  ignoreCase: true
-  regularExpression: true
-- beginString: ^static|\t+static|\s+static
-  ignoreCase: true
-  regularExpression: true
-- beginString: ^switch|\t+switch|\s+switch
+- beginString: ^(|\s+|\t+)(for|clamp|class|const|enum|func|if|return|static|switch)\s
   ignoreCase: true
   regularExpression: true
 metadata:
